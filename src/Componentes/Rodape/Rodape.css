@@ -1,0 +1,20 @@
+/* src/componentes/Rodape/index.js */
+
+.footer {
+    background: hwb(240 9% 91%);
+    color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+
+    .footer ul li {
+        display: inline-block;
+        margin-right: 32px;
+    }
+
+        .footer ul li:last-child {
+            margin-right: 0;
+        }
